@@ -1,0 +1,31 @@
+.flexContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.widen {
+    width: 500px;
+}
+
+.whiteBackground {
+    background: white;
+
+}
+
+.header {
+    background: #bfbfbf;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.featureOnHover:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
